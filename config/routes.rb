@@ -1,11 +1,8 @@
 Fabsays::Application.routes.draw do
   root :to => 'pages#home'
 
-  get "pages/home"
-
-  get "pages/about"
-
-  get "pages/resume"
+  match "/about" => 'pages#about'
+  match "/resume" => 'pages#resume'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
