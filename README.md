@@ -1,4 +1,3 @@
-My Personal Website
+Clean Commits
 ===================
-
-This repo is for my personal website, which I plan to host at [fabsays.com](http://fabsays.com)
+This is an exercise to demonstrate well written commits. The example is the creation of a personal website.
